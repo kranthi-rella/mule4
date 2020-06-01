@@ -27,13 +27,13 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
-						<environment>${environment}</environment>
-						<applicationName>${application.name}</applicationName>
-						<workers>${workers}</workers>
-						<workerType>${worker.type}</workerType>
+						<muleVersion>4.1.4</muleVersion>
+						<username>arella</username>
+						<password>Ihtnark!@123</password>
+						<environment>Sandbox</environment>
+						<applicationName>cicd-demo-app</applicationName>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
